@@ -1,0 +1,14 @@
+{
+  "name": "GridCraft", "slug": "gridcraft", "wave": 3, "status": "done",
+  "bundle": "/Users/chris/Claude/TrueMotive/artcraft-root/GridCraft.app", "gui": "GridCraft",
+  "cli": "/Users/chris/Claude/TrueMotive/artcraft-root/bin/gridcraft-cli",
+  "commands": {"argv": ["commands"], "format": "text"},
+  "run": "gridcraft-cli run [--in FILE | --sample NAME] [--cmd 'id={json}']... [--script FILE.jsonl]; eval, cat, check, convert",
+  "protocol_doc": null,
+  "skill": "artcraft/gridcraft/truemotive-gridcraft",
+  "notes": "Spreadsheets. commands accepts --json and --search X. Formats xlsx csv tsv json html pdf.",
+  "flags": {"batch_stdin": true, "run_single": true, "serve": false, "mcp_headless": true, "mcp_bridge": true,
+    "desktop_control": "port", "roots_flags": false, "render_cli": false, "convert_cli": true,
+    "commands_list": "text", "describe": false, "mutates_flag": false, "object_model": "cells",
+    "units": "none", "path_commands": false}
+}

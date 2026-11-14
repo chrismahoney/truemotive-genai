@@ -1,0 +1,14 @@
+{
+  "name": "DesignCraft", "slug": "designcraft", "wave": 2, "status": "done",
+  "bundle": "/Users/chris/Claude/TrueMotive/artcraft-root/DesignCraft.app", "gui": "DesignCraft",
+  "cli": "/Users/chris/Claude/TrueMotive/artcraft-root/DesignCraft.app/Contents/MacOS/designcraft-cli",
+  "commands": {"argv": ["commands"], "format": "json"},
+  "run": "designcraft-cli run [--in FILE] [--cmd ID[=JSON]]... [--export OUT]; script [FILE|-]; app --port PORT",
+  "protocol_doc": "~/.claude/skills/designcraft/references/control-protocol.md",
+  "skill": "artcraft/designcraft/truemotive-designcraft",
+  "notes": "Page-layout and design. VectorCraft's object-model sibling. Has describe, validate-pdf.",
+  "flags": {"batch_stdin": true, "run_single": true, "serve": false, "mcp_headless": true, "mcp_bridge": true,
+    "desktop_control": "port", "roots_flags": true, "render_cli": true, "convert_cli": false,
+    "commands_list": "json", "describe": true, "mutates_flag": false, "object_model": "object",
+    "units": "pt", "path_commands": true, "inherits_last_style": false}
+}

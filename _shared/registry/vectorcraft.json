@@ -1,0 +1,13 @@
+{
+  "name": "VectorCraft", "slug": "vectorcraft", "wave": 0, "status": "done",
+  "bundle": "/Users/chris/Claude/TrueMotive/artcraft-root/VectorCraft.app", "gui": "VectorCraft",
+  "cli": "/Users/chris/Claude/TrueMotive/artcraft-root/bin/vectorcraft-cli",
+  "commands": {"argv": ["commands"], "format": "json"},
+  "run": "vectorcraft-cli run [--in FILE] --commands - --export OUT... (JSON lines on stdin)",
+  "protocol_doc": "~/.claude/skills/vectorcraft/references/control-protocol.md",
+  "skill": "artcraft/vectorcraft/truemotive-vectorcraft",
+  "flags": {"batch_stdin": true, "run_single": true, "serve": false, "mcp_headless": true, "mcp_bridge": true,
+    "desktop_control": "port", "roots_flags": true, "render_cli": true, "convert_cli": true,
+    "commands_list": "json", "describe": false, "mutates_flag": false, "object_model": "object",
+    "units": "pt", "path_commands": true, "inherits_last_style": true}
+}

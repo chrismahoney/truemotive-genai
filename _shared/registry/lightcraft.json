@@ -1,0 +1,14 @@
+{
+  "name": "LightCraft", "slug": "lightcraft", "wave": 2, "status": "done",
+  "bundle": "/Users/chris/Claude/TrueMotive/artcraft-root/LightCraft.app", "gui": "LightCraft",
+  "cli": "/Users/chris/Claude/TrueMotive/artcraft-root/bin/lightcraft-cli",
+  "commands": {"argv": ["commands"], "format": "text"},
+  "run": "lightcraft-cli run [OPTIONS] COMMAND [key=value | '{json}'] [COMMAND ...]; also render, snapshot, merge",
+  "protocol_doc": "~/.claude/skills/lightcraft/references/control-protocol.md",
+  "skill": "artcraft/lightcraft/truemotive-lightcraft",
+  "notes": "Photo library plus raw developer. PhotoCraft's raster sibling.",
+  "flags": {"batch_stdin": true, "run_single": true, "serve": false, "mcp_headless": true, "mcp_bridge": true,
+    "desktop_control": "port", "roots_flags": false, "render_cli": true, "convert_cli": false,
+    "commands_list": "text", "describe": false, "mutates_flag": false, "object_model": "pixel",
+    "units": "none", "path_commands": false}
+}

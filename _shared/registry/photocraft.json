@@ -1,0 +1,13 @@
+{
+  "name": "PhotoCraft", "slug": "photocraft", "wave": 0, "status": "done",
+  "bundle": "/Users/chris/Claude/TrueMotive/artcraft-root/PhotoCraft.app", "gui": "PhotoCraft",
+  "cli": "/Users/chris/Claude/TrueMotive/artcraft-root/PhotoCraft.app/Contents/MacOS/photocraft-cli",
+  "commands": {"argv": ["serve"], "stdin": "{\"id\":1,\"method\":\"engine.commands\",\"params\":{}}\n", "format": "json"},
+  "run": "photocraft-cli serve --automation-write-root DIR (JSON lines on stdin) | run --new JSON --cmd ID --params JSON --out FILE",
+  "protocol_doc": "~/.claude/skills/photocraft/references/control-protocol.md",
+  "skill": "artcraft/photocraft/truemotive-photocraft",
+  "flags": {"batch_stdin": true, "run_single": true, "serve": true, "mcp_headless": true, "mcp_bridge": true,
+    "desktop_control": "port+token", "roots_flags": true, "render_cli": true, "convert_cli": true,
+    "commands_list": "json", "describe": false, "mutates_flag": false, "object_model": "pixel",
+    "units": "px", "path_commands": true}
+}

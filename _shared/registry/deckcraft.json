@@ -1,0 +1,14 @@
+{
+  "name": "DeckCraft", "slug": "deckcraft", "wave": 2, "status": "done",
+  "bundle": "/Users/chris/Claude/TrueMotive/artcraft-root/DeckCraft.app", "gui": "DeckCraft",
+  "cli": "/Users/chris/Claude/TrueMotive/artcraft-root/bin/deckcraft-cli",
+  "commands": {"argv": ["commands"], "format": "text"},
+  "run": "deckcraft-cli run <commands> then save or export; render slides to PNG; app runs a command in the live app",
+  "protocol_doc": "~/.claude/skills/deckcraft/references/control-protocol.md",
+  "skill": "artcraft/deckcraft/truemotive-deckcraft",
+  "notes": "Presentations. commands prints one `id — label: params` line each; describe ID explains one.",
+  "flags": {"batch_stdin": true, "run_single": true, "serve": false, "mcp_headless": true, "mcp_bridge": null,
+    "desktop_control": "port", "roots_flags": true, "render_cli": true, "convert_cli": true,
+    "commands_list": "text", "describe": true, "mutates_flag": false, "object_model": "pages",
+    "units": "pt", "path_commands": null}
+}

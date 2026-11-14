@@ -1,0 +1,14 @@
+{
+  "name": "WordCraft", "slug": "wordcraft", "wave": 3, "status": "done",
+  "bundle": "/Users/chris/Claude/TrueMotive/artcraft-root/WordCraft.app", "gui": "WordCraft",
+  "cli": "/Users/chris/Claude/TrueMotive/artcraft-root/bin/wordcraft-cli",
+  "commands": {"argv": ["commands", "--json"], "format": "json"},
+  "run": "wordcraft-cli run [--file F | --template T] [--script FILE|-] --cmd 'id={json}' ...; render, convert, text, inspect",
+  "protocol_doc": null,
+  "skill": "artcraft/wordcraft/truemotive-wordcraft",
+  "notes": "Word processing. commands accepts --json.",
+  "flags": {"batch_stdin": true, "run_single": true, "serve": false, "mcp_headless": true, "mcp_bridge": true,
+    "desktop_control": "port", "roots_flags": true, "render_cli": true, "convert_cli": true,
+    "commands_list": "json", "describe": false, "mutates_flag": true, "object_model": "doc",
+    "units": null, "path_commands": false}
+}

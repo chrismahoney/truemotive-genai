@@ -1,0 +1,14 @@
+{
+  "name": "Craft Anything", "slug": "craft-anything", "wave": 4, "status": "queued",
+  "bundle": "/Users/chris/Claude/TrueMotive/artcraft-root/Craft Anything.app", "gui": "craft-anything",
+  "cli": "/Users/chris/Claude/TrueMotive/artcraft-root/Craft Anything.app/Contents/MacOS/craft-anything-cli",
+  "commands": {"argv": ["commands"], "format": "json"},
+  "run": "craft-anything-cli mcp (tools over MCP); commands lists tools; capabilities, doctor, triage, report, chat",
+  "protocol_doc": null,
+  "skill": null,
+  "notes": "Tool-oriented, not document-oriented. Registry rows use command/title/summary keys (the adapter maps them).",
+  "flags": {"batch_stdin": false, "run_single": null, "serve": null, "mcp_headless": true, "mcp_bridge": null,
+    "desktop_control": null, "roots_flags": null, "render_cli": false, "convert_cli": false,
+    "commands_list": "json", "describe": false, "mutates_flag": false, "object_model": "tools",
+    "units": null, "path_commands": false}
+}

@@ -1,0 +1,14 @@
+{
+  "name": "TextureCraft", "slug": "texturecraft", "wave": 3, "status": "done",
+  "bundle": "/Users/chris/Claude/TrueMotive/artcraft-root/TextureCraft.app", "gui": "TextureCraft",
+  "cli": "/Users/chris/Claude/TrueMotive/artcraft-root/bin/texturecraft-cli",
+  "commands": {"argv": ["commands"], "format": "text"},
+  "run": "texturecraft-cli run <input> <command-id> [params-json] [-o out.tcraft]; batch <script.json>; bake; export; render",
+  "protocol_doc": null,
+  "skill": "artcraft/texturecraft/truemotive-texturecraft",
+  "notes": "3D texture painting and baking (.tcraft). commands takes --filter TEXT.",
+  "flags": {"batch_stdin": true, "run_single": true, "serve": true, "mcp_headless": true, "mcp_bridge": true,
+    "desktop_control": "port+token", "roots_flags": true, "render_cli": true, "convert_cli": false,
+    "commands_list": "text", "describe": false, "mutates_flag": false, "object_model": "3d",
+    "units": "px", "path_commands": false}
+}

@@ -1,0 +1,14 @@
+{
+  "name": "AniCraft", "slug": "anicraft", "wave": 3, "status": "done",
+  "bundle": "/Users/chris/Claude/TrueMotive/artcraft-root/AniCraft.app", "gui": "AniCraft",
+  "cli": "/Users/chris/Claude/TrueMotive/artcraft-root/AniCraft.app/Contents/MacOS/anicraft-cli",
+  "commands": {"argv": ["commands"], "format": "json"},
+  "run": "anicraft-cli run <file|--sample> <script.json> [--save OUT] | exec <file|--sample> <command.id> [json] ; render, render-seq, gif",
+  "protocol_doc": null,
+  "skill": "artcraft/anicraft/truemotive-anicraft",
+  "notes": "New app (bundle dated 2026-11-11), no upstream skill. Registry has a native mutates flag. Wave 3 pilot.",
+  "flags": {"batch_stdin": true, "run_single": true, "serve": true, "mcp_headless": true, "mcp_bridge": null,
+    "desktop_control": null, "roots_flags": null, "render_cli": true, "convert_cli": false,
+    "commands_list": "json", "describe": false, "mutates_flag": true, "object_model": "timeline",
+    "units": "px", "path_commands": true}
+}

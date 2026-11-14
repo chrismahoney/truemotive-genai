@@ -1,0 +1,14 @@
+{
+  "name": "CADCraft", "slug": "cadcraft", "wave": 2, "status": "done",
+  "bundle": "/Users/chris/Claude/TrueMotive/artcraft-root/CADCraft.app", "gui": "CADCraft",
+  "cli": "/Users/chris/Claude/TrueMotive/artcraft-root/bin/cadcraft-cli",
+  "commands": {"argv": ["commands"], "format": "json"},
+  "run": "cadcraft-cli run: open drawings or start new, run scripts and commands in order, save or export",
+  "protocol_doc": "~/.claude/skills/cadcraft/references/control-protocol.md",
+  "skill": "artcraft/cadcraft/truemotive-cadcraft",
+  "notes": "2D CAD. Formats dxf, dwg, dwt, svg, png, pdf. Also roundtrip, sample, perf.",
+  "flags": {"batch_stdin": true, "run_single": true, "serve": false, "mcp_headless": true, "mcp_bridge": true,
+    "desktop_control": null, "roots_flags": false, "render_cli": true, "convert_cli": true,
+    "commands_list": "json", "describe": false, "mutates_flag": false, "object_model": "object",
+    "units": "imperial", "path_commands": true, "inherits_last_style": false}
+}

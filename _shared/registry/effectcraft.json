@@ -1,0 +1,14 @@
+{
+  "name": "EffectCraft", "slug": "effectcraft", "wave": 2, "status": "done",
+  "bundle": "/Users/chris/Claude/TrueMotive/artcraft-root/EffectCraft.app", "gui": "EffectCraft",
+  "cli": "/Users/chris/Claude/TrueMotive/artcraft-root/bin/effectcraft-cli",
+  "commands": {"argv": ["commands"], "format": "text"},
+  "run": "effectcraft-cli run --commands FILE|- (JSON array or JSON lines) | run ID JSON ...; props/get/set; render-frame, render",
+  "protocol_doc": "~/.claude/skills/effectcraft/references/control-protocol.md",
+  "skill": "artcraft/effectcraft/truemotive-effectcraft",
+  "notes": "Compositions, layers, animation, masks, effects. commands takes --filter TEXT and --enabled.",
+  "flags": {"batch_stdin": true, "run_single": true, "serve": false, "mcp_headless": true, "mcp_bridge": true,
+    "desktop_control": "port", "roots_flags": null, "render_cli": true, "convert_cli": false,
+    "commands_list": "text", "describe": false, "mutates_flag": false, "object_model": "timeline",
+    "units": "px", "path_commands": true}
+}

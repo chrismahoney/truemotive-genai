@@ -1,0 +1,14 @@
+{
+  "name": "SoundCraft", "slug": "soundcraft", "wave": 3, "status": "queued",
+  "bundle": "/Users/chris/Claude/TrueMotive/artcraft-root/SoundCraft.app", "gui": "SoundCraft",
+  "cli": "/Users/chris/Claude/TrueMotive/artcraft-root/bin/soundcraft-cli",
+  "commands": {"argv": ["commands"], "format": "text"},
+  "run": "soundcraft-cli run [session] ... | script FILE (one `ID JSON` per line); describe ID; app calls a running app",
+  "protocol_doc": null,
+  "skill": "artcraft/soundcraft/truemotive-soundcraft",
+  "notes": "Audio editing. Sessions are .scraft. convert resamples, changes bit depth, normalises.",
+  "flags": {"batch_stdin": null, "run_single": true, "serve": null, "mcp_headless": true, "mcp_bridge": null,
+    "desktop_control": "port", "roots_flags": null, "render_cli": false, "convert_cli": true,
+    "commands_list": "text", "describe": true, "mutates_flag": false, "object_model": "audio",
+    "units": null, "path_commands": false}
+}

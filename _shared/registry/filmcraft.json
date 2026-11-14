@@ -1,0 +1,14 @@
+{
+  "name": "FilmCraft", "slug": "filmcraft", "wave": 2, "status": "done",
+  "bundle": "/Users/chris/Claude/TrueMotive/artcraft-root/FilmCraft.app", "gui": "FilmCraft",
+  "cli": "/Users/chris/Claude/TrueMotive/artcraft-root/bin/filmcraft-cli",
+  "commands": {"argv": ["commands"], "format": "text"},
+  "run": "filmcraft-cli run <script.jsonl|-> ({\"id\",\"params\"} per line) | exec <id> [key=value ...] | inspect",
+  "protocol_doc": "~/.claude/skills/filmcraft/references/control-protocol.md",
+  "skill": "artcraft/filmcraft/truemotive-filmcraft",
+  "notes": "Video editing. file.exportMedia waits for its file before the next line. --bridge attaches to the live app.",
+  "flags": {"batch_stdin": true, "run_single": true, "serve": false, "mcp_headless": true, "mcp_bridge": true,
+    "desktop_control": "port", "roots_flags": null, "render_cli": true, "convert_cli": false,
+    "commands_list": "text", "describe": true, "mutates_flag": false, "object_model": "timeline",
+    "units": "none", "path_commands": false}
+}

@@ -1,0 +1,14 @@
+{
+  "name": "FigCraft", "slug": "figcraft", "wave": 3, "status": "done",
+  "bundle": "/Users/chris/Claude/TrueMotive/artcraft-root/FigCraft.app", "gui": "FigCraft",
+  "cli": "/Users/chris/Claude/TrueMotive/artcraft-root/bin/figcraft-cli",
+  "commands": {"argv": ["commands"], "format": "text"},
+  "run": "figcraft-cli run <script of commands> (one JSON result line per step); export, convert, render",
+  "protocol_doc": null,
+  "skill": "artcraft/figcraft/truemotive-figcraft",
+  "notes": "UI and vector design. Object model like VectorCraft. Formats .figcraft .json .svg .png .jpg .webp .pdf .fig .penpot. Undoable commands carry a star in the listing.",
+  "flags": {"batch_stdin": true, "run_single": false, "serve": false, "mcp_headless": true, "mcp_bridge": true,
+    "desktop_control": null, "roots_flags": true, "render_cli": true, "convert_cli": true,
+    "commands_list": "text", "describe": false, "mutates_flag": false, "object_model": "object",
+    "units": "px", "path_commands": true, "inherits_last_style": false}
+}

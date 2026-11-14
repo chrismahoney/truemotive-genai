@@ -1,0 +1,14 @@
+{
+  "name": "PdfCraft", "slug": "pdfcraft", "wave": 4, "status": "queued",
+  "bundle": "/Users/chris/Claude/TrueMotive/artcraft-root/PdfCraft.app", "gui": "PdfCraft",
+  "cli": "/Users/chris/Claude/TrueMotive/artcraft-root/bin/pdfcraft-cli",
+  "commands": {"argv": [], "format": "none"},
+  "run": "task subcommands: info, render, text, edit, combine, extract, split, check, audit, batch (no command registry)",
+  "protocol_doc": null,
+  "skill": null,
+  "notes": "Task-shaped CLI, not a command registry. render writes png, jpg, tif or pam; audit finds faux redactions.",
+  "flags": {"batch_stdin": false, "run_single": false, "serve": false, "mcp_headless": false, "mcp_bridge": false,
+    "desktop_control": null, "roots_flags": false, "render_cli": true, "convert_cli": false,
+    "commands_list": "none", "describe": false, "mutates_flag": false, "object_model": "pages",
+    "units": null, "path_commands": false}
+}

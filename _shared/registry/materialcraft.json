@@ -1,0 +1,14 @@
+{
+  "name": "MaterialCraft", "slug": "materialcraft", "wave": 3, "status": "done",
+  "bundle": "/Users/chris/Claude/TrueMotive/artcraft-root/MaterialCraft.app", "gui": "MaterialCraft",
+  "cli": "/Users/chris/Claude/TrueMotive/artcraft-root/bin/materialcraft-cli",
+  "commands": {"argv": ["commands"], "format": "json"},
+  "run": "materialcraft-cli run <input> <command-id> [params-json] [-o out.sbs]; batch <script.json>; cook; new; nodes",
+  "protocol_doc": null,
+  "skill": "artcraft/materialcraft/truemotive-materialcraft",
+  "notes": "Procedural material graphs (.sbs). commands takes --filter TEXT; nodes lists graph nodes.",
+  "flags": {"batch_stdin": true, "run_single": true, "serve": true, "mcp_headless": true, "mcp_bridge": true,
+    "desktop_control": "port+token", "roots_flags": true, "render_cli": true, "convert_cli": false,
+    "commands_list": "json", "describe": false, "mutates_flag": false, "object_model": "graph",
+    "units": "px", "path_commands": false}
+}

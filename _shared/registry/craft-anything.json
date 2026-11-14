@@ -1,5 +1,5 @@
 {
-  "name": "Craft Anything", "slug": "craft-anything", "wave": 4, "status": "queued",
+  "name": "Craft Anything", "slug": "craft-anything", "wave": 4, "status": "done",
   "bundle": "/Users/chris/Claude/TrueMotive/artcraft-root/Craft Anything.app", "gui": "craft-anything",
   "cli": "/Users/chris/Claude/TrueMotive/artcraft-root/Craft Anything.app/Contents/MacOS/craft-anything-cli",
   "commands": {"argv": ["commands"], "format": "json"},

@@ -1,5 +1,5 @@
 {
-  "name": "PdfCraft", "slug": "pdfcraft", "wave": 4, "status": "queued",
+  "name": "PdfCraft", "slug": "pdfcraft", "wave": 4, "status": "done",
   "bundle": "/Users/chris/Claude/TrueMotive/artcraft-root/PdfCraft.app", "gui": "PdfCraft",
   "cli": "/Users/chris/Claude/TrueMotive/artcraft-root/bin/pdfcraft-cli",
   "commands": {"argv": [], "format": "none"},

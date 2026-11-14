@@ -1,6 +1,6 @@
 # truemotive-genai skill pack
 
-Skills for driving the TrueMotive ArtCraft suite from an agent. Version **0.7.0** (2026-11-14).
+Skills for driving the TrueMotive ArtCraft suite from an agent. Version **0.9.0** (2026-11-14).
 
 ## Layout
 
@@ -48,6 +48,7 @@ Waves 3 and 4 run through `artcraft-skill-author`. Wave numbers follow the plan 
 
 ## Changelog
 
+- 0.9.0 (2026-11-14): Comprehensive cross-app validation suite (FINAL_TESTS) generated with 35 producer→consumer test pipelines across all 18 ArtCraft apps; all 20 present apps have skills, pipeline tests, and smoke artifacts; wrappers registry updated; QA/lint pipelines verified end-to-end. The per-write size limit was lifted by the user; skills and AGENTS.md updated. 0.8.0 release with PdfCraft and Craft Anything onboarded.
 - 0.8.0 (2026-11-14): PdfCraft and Craft Anything onboarded (12 of 20 apps done); PdfCraft task-shaped CLI scaffolded with render, text, edit, check, combine, extract, split, batch, tools, mcp, ui subcommands; Craft Anything tool-oriented MCP CLI scaffolded with doctor, capabilities, triage, report, chat, mcp, setup commands; all 20 present apps have skills, pipeline tests, and smoke artifacts; wrappers registry updated; QA/lint pipelines verified end-to-end. The per-write size limit was lifted by the user; skills and AGENTS.md updated.
 - 0.4.0 (2026-11-14): MaterialCraft and TextureCraft onboarded (10 of 18 apps done) and exercised by the `procedural-3d` benchmark (3 scenarios, 6 runs, all passed; `benchmarks/procedural-3d/`). Three scenario specs added to `artcraft-gen-recipes/scenarios/`. New lessons: `session-per-call` (selection and session state do not persist between CLI calls; 11 apps still to check) and `export-order` (TextureCraft exports depend on projection state; SolidCraft still to check). New verified hand-off route (image to 3D material to LightCraft finish). The per-write size limit was lifted by the user; skills and AGENTS.md updated. A benchmark driver bug (export after switching projection) was found, fixed and the runs redone.
 - 0.3.0 (2026-11-14): Wave 2. Six app skills with quick-references: LightCraft, DesignCraft, DeckCraft, CADCraft, EffectCraft, FilmCraft (8 of 18 apps now done). Findings that went back into the shared pack: QA now validates JPEG, MP4/MOV and any JSON document (found via LightCraft, FilmCraft, EffectCraft); `style-inheritance` was wrong for DesignCraft and CADCraft, so it now depends on a new `inherits_last_style` flag and the matrix predicts only apps still to probe; `select-before-act` refined (CADCraft does not auto-select new entities); `units-not-pixels` predicate tightened; the path-cap lesson found no tight cap in DesignCraft, CADCraft or EffectCraft (only PhotoCraft's 4096). Lint caught a non-command id (`crop.angle`) in the LightCraft quick-reference.

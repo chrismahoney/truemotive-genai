@@ -1,5 +1,5 @@
 {
-  "name": "SoundCraft", "slug": "soundcraft", "wave": 3, "status": "queued",
+  "name": "SoundCraft", "slug": "soundcraft", "wave": 3, "status": "done",
   "bundle": "/Users/chris/Claude/TrueMotive/artcraft-root/SoundCraft.app", "gui": "SoundCraft",
   "cli": "/Users/chris/Claude/TrueMotive/artcraft-root/bin/soundcraft-cli",
   "commands": {"argv": ["commands"], "format": "text"},

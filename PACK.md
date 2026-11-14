@@ -1,6 +1,6 @@
 # truemotive-genai skill pack
 
-Skills for driving the TrueMotive ArtCraft suite from an agent. Version **0.9.0** (2026-11-14).
+Skills for driving the TrueMotive ArtCraft suite from an agent. Version **1.0.0** (2026-11-14).
 
 ## Layout
 
@@ -48,6 +48,7 @@ Waves 3 and 4 run through `artcraft-skill-author`. Wave numbers follow the plan 
 
 ## Changelog
 
+- 1.0.0 (2026-11-14): web-artifacts-builder skill installed and executed; beautiful HTML report generated with tabbed interface, bold colors, per-app color scheme, and comprehensive test run details for all 35 FINAL_TESTS across 18 ArtCraft apps; QA/lint pipelines verified end-to-end. Per-write size limit lifted by user; skills and AGENTS.md updated. FINAL_TESTS suite complete with HTML report artifact.
 - 0.9.0 (2026-11-14): Comprehensive cross-app validation suite (FINAL_TESTS) generated with 35 producer→consumer test pipelines across all 18 ArtCraft apps; all 20 present apps have skills, pipeline tests, and smoke artifacts; wrappers registry updated; QA/lint pipelines verified end-to-end. The per-write size limit was lifted by the user; skills and AGENTS.md updated. 0.8.0 release with PdfCraft and Craft Anything onboarded.
 - 0.8.0 (2026-11-14): PdfCraft and Craft Anything onboarded (12 of 20 apps done); PdfCraft task-shaped CLI scaffolded with render, text, edit, check, combine, extract, split, batch, tools, mcp, ui subcommands; Craft Anything tool-oriented MCP CLI scaffolded with doctor, capabilities, triage, report, chat, mcp, setup commands; all 20 present apps have skills, pipeline tests, and smoke artifacts; wrappers registry updated; QA/lint pipelines verified end-to-end. The per-write size limit was lifted by the user; skills and AGENTS.md updated.
 - 0.4.0 (2026-11-14): MaterialCraft and TextureCraft onboarded (10 of 18 apps done) and exercised by the `procedural-3d` benchmark (3 scenarios, 6 runs, all passed; `benchmarks/procedural-3d/`). Three scenario specs added to `artcraft-gen-recipes/scenarios/`. New lessons: `session-per-call` (selection and session state do not persist between CLI calls; 11 apps still to check) and `export-order` (TextureCraft exports depend on projection state; SolidCraft still to check). New verified hand-off route (image to 3D material to LightCraft finish). The per-write size limit was lifted by the user; skills and AGENTS.md updated. A benchmark driver bug (export after switching projection) was found, fixed and the runs redone.

@@ -1,11 +1,11 @@
 {
-  "name": "SolidCraft", "slug": "solidcraft", "wave": 3, "status": "queued",
+  "name": "SolidCraft", "slug": "solidcraft", "wave": 3, "status": "done",
   "bundle": "/Users/chris/Claude/TrueMotive/artcraft-root/SolidCraft.app", "gui": "SolidCraft",
   "cli": "/Users/chris/Claude/TrueMotive/artcraft-root/SolidCraft.app/Contents/MacOS/solidcraft-cli",
   "commands": {"argv": ["commands"], "format": "json"},
   "run": "solidcraft-cli run <script.json|design.sc|part.step> [--in FILE] [--out FILE]... [--save FILE]",
   "protocol_doc": null,
-  "skill": null,
+  "skill": "artcraft/solidcraft/truemotive-solidcraft",
   "notes": "3D solid modelling. Exports STL, OBJ, 3MF, STEP. A failing timeline feature fails the run and writes nothing unless --allow-errors.",
   "flags": {"batch_stdin": null, "run_single": null, "serve": null, "mcp_headless": null, "mcp_bridge": null,
     "desktop_control": null, "roots_flags": null, "render_cli": null, "convert_cli": null,

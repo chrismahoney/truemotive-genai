@@ -37,7 +37,7 @@ benchmark/truemotive-ab-benchmark/   A/B benchmark method
 | 1 | Foundation: registry for all 18 apps, adapters, templates, ledger, 7 cross-app skills | done |
 | 2 | LightCraft, DesignCraft, DeckCraft, CADCraft, EffectCraft, FilmCraft | done (each smoke-tested, linted, registered, swept) |
 | 3 | MaterialCraft, TextureCraft | done (onboarded for the procedural-3d benchmark) |
-| 3 | AniCraft (pilot, new 2026-11-11), FigCraft, WordCraft, GridCraft, SoundCraft, SolidCraft | done (SoundCraft skill registered 2026-11-14) |
+| 3 | AniCraft (pilot, new 2026-11-11), FigCraft, WordCraft, GridCraft, SoundCraft, SolidCraft | done (7 apps onboarded: AniCraft, FigCraft, WordCraft, GridCraft, MaterialCraft, TextureCraft, SoundCraft, SolidCraft) |
 | 4 | PdfCraft, Craft Anything | queued (different CLI shape) |
 
 Waves 3 and 4 run through `artcraft-skill-author`. Wave numbers follow the plan in `/Users/chris/.claude/plans/`.
